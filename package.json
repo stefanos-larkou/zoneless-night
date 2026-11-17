@@ -1,0 +1,39 @@
+{
+    "name": "zoneless-night",
+    "displayName": "Zoneless Night",
+    "description": "A dark Angular theme with vivid, distinct colours for TypeScript and Angular templates",
+    "version": "1.1.2",
+    "publisher": "StefanosLarkou",
+    "author": "Stefanos Larkou",
+    "license": "MIT",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stefanos-larkou/zoneless-night.git"
+    },
+    "homepage": "https://github.com/stefanos-larkou/zoneless-night#readme",
+    "bugs": {
+        "url": "https://github.com/stefanos-larkou/zoneless-night/issues"
+    },
+    "engines": {
+        "vscode": "^1.100.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "angular",
+        "typescript",
+        "dark",
+        "theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zoneless Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/zoneless-night-color-theme.json"
+            }
+        ]
+    }
+}
